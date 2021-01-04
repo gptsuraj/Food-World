@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoconutCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COCONUT CAKE"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/coconutcake"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:text="Ingredient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ingredient_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:layout_margin="10dp"
+            android:text="2 cups all-purpose flour, 1 tablespoon baking powder, 1 teaspoon salt, 1 cup butter room temperature, 2 cups white sugar, 5 eggs, room temperature, 1 teaspoon coconut extract, 1 cup buttermilk, room temperature, 1 cup flaked coconut."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:text="Process"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="1.Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 10-inch tube pan.
+2.Mix flour, baking powder, and salt together and set aside.
+3.Beat butter and sugar with an electric mixer in a large bowl until light and fluffy. The mixture should be noticeably lighter in color. Add the room-temperature eggs one at a time, allowing each egg to blend into the butter mixture before adding the next. Mix in coconut extract.
+4.Pour in the flour mixture alternately with the buttermilk, mixing until just incorporated. Fold in coconut, mixing just enough to evenly combine. Pour batter into prepared pan.
+5.Bake at 350 degrees F (175 degrees C) for 1 hour, or until a toothpick inserted into the cake comes out clean."/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

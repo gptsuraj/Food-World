@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BostonCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOSTON CAKE"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/bostonpie"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/ingredient_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:text="Ingredient"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:layout_margin="10dp"
+            android:text="6 tablespoons unsalted butter, plus more for pan, 1 1/2 cups all-purpose flour (spooned and leveled), plus more for pan, 1 1/2 teaspoons baking powder, 1/2 teaspoon salt, 1/2 cup milk, 3 large eggs, 1 cup sugar, 1 teaspoon vanilla extract, 1/2 recipe cooled Vanilla or Chocolate Pudding, 1/4 cup heavy cream, 4 ounces semisweet chocolate, chopped."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="1.Preheat oven to 350 degrees. Butter and flour a 9-inch round cake pan. In a small bowl, whisk together flour, baking powder, and salt; set aside. Combine milk and butter in a small saucepan; set over very low heat.
+2.With an electric mixer, beat eggs and sugar on high speed until thick, lightened in color, and mixture holds a trail for several seconds when beater is lifted, 4 to 5 minutes. Gradually whisk in dry ingredients just until incorporated.
+3.Bring milk and butter to a boil. With mixer on low speed, add hot milk mixture to batter; mix just until smooth. Mix in vanilla; transfer batter to prepared pan, and smooth top.
+4.Bake until golden and pulling away from sides of pan, 35 to 40 minutes. Cool cake 10 minutes in pan; remove from pan, and transfer to a rack to cool, right side up.
+5.Fill cake: For easy cleanup, place a piece of waxed paper under rack. With a serrated knife, split cooled cake horizontally (leave bottom half on rack). Spread bottom half with Vanilla Pudding to within 1/2 inch of edge; gently place top half of cake on pudding layer.
+6.Make Chocolate Glaze: In a small saucepan, bring heavy cream to a boil. Remove from heat, and add chocolate; stir until smooth.
+7.Set aside to cool to room temperature and to thicken slightly, about 10 minutes. When glaze has thickened, pour over filled cake. Using a small metal spatula, spread glaze to edges of cake, allowing it to drip down sides. Let glaze set, 15 to 20 minutes. Leftover cake can be refrigerated, loosely covered, up to 2 days."/>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+

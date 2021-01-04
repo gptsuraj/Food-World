@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpongeCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPONGE CAKE"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/spongecake"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:text="Ingredient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ingredient_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:text="1 cup all-purpose flour, 1 1/2 teaspoons baking powder, 1 cup butter, softened, 1 cup confectioners sugar, 2 eggs, room temperature, 1 teaspoon vanilla extract, 1/2 cup milk, room temperature."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="1.Preheat oven to 400 degrees F (200 degrees C). Grease an 8-inch springform pan.
+2.Sift the flour and baking powder into a medium bowl and set aside.
+3.Beat butter and sugar with an electric mixer until light and fluffy. The mixture should be noticeably lighter in color. Add room-temperature eggs one at a time, allowing each egg to blend into butter mixture before adding the next. Beat in vanilla. Pour in the flour mixture alternately with the milk, mixing until just incorporated. Pour batter into prepared pan.
+4.Bake in the preheated oven until a toothpick inserted in the center comes out clean, about 20 minutes. Cool the cake in the pan for 10 minutes, then turn the cake out onto a wire rack to cool completely.
+5.This cake can be served as is, just dusted with confectioners' sugar. Alternately, cut the cake in half horizontally and sandwich the layers together with jam or custard."/>
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

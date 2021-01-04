@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoltenChocolateCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOLTEN CHOCOLATE CAKE"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/moltenchocolate"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:text="Ingredient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ingredient_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:text="High quality semi-sweet chocolate, 1/2 cup (115g,1 stick) unsalted butter, 1/4 cup (31g) all-purpose flour, 1/2 cup (60g) confectioners’ sugar, 1/8 teaspoon salt, 2 large eggs, 2 large eggs, Optional for topping: ice cream, raspberries, and chocolate syrup."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="1.Preheat oven to 218°C, 2.Coarsely chop the chocolate. Place butter into a medium heat-proof bowl, then add chopped chocolate on top. Microwave on high in 10 second increments, stirring after each until completely smooth, 3.Whisk the flour, confectioners’ sugar, and salt together in a small bowl. Whisk the eggs and egg yolks together until combined in another small bowl. Pour the flour mixture and eggs into the bowl of chocolate. Slowly stir everything together using a rubber spatula or wooden spoon. If there are any lumps, gently use your whisk to rid them. The batter will be slightly thick, 4.Spoon chocolate batter evenly into each prepared ramekin or muffin cup, 5.Place ramekins onto a baking sheet and bake for 12-14 minutes until the sides appear solid and firm– the tops will still look soft.If baking in a muffin pan, the cakes only take about 8-10 minutes, 6.Allow to cool for 1 minute, then cover each with an inverted plate and turn over. Use an oven mitt because those ramekins are hot! The cakes should release easily from the ramekin.If you used a muffin pan, use a spoon to release the cakes from the pan and place each upside down on plates, 7.Add toppings,Serve immediately."/>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+

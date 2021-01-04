@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedVelvetCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RED VELVET CAKE"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/redvelvet"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:text="Ingredient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ingredient_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:text="2 and 1/2 cups (340g) all-purpose flour, 1/4 cup (35g) cornstarch, 2 tablespoons (12g) unsweetened cocoa powder (any kind works), 1 teaspoon baking soda, 3/4 teaspoon salt, 1/2 cup (1 stick/115g) unsalted butter, softened to room temperature, 2 and 1/8 cups (425g) granulated sugar, 1 cup (240 ml) vegetable or canola oil, 3 large eggs, 2 teaspoons vanilla extract, 1 and 1/4 teaspoons distilled wine vinegar, 2-3 tablespoons red food coloring, 1 cup (240 ml) buttermilk, Full-fat block cream cheese (450g)(not spread), at room temperature, 2 sticks/225g unsalted butter , softened to room temperature, 4 cups (480g) powdered sugar, 2 teaspoons vanilla extract."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="1.Preheat oven to 350 degrees F (175 degrees C). Grease two 9-inch round pans.
+2.Beat shortening and 1 1/2 cups sugar until very light and fluffy. Add eggs and beat well.
+3.Make a paste of cocoa and red food coloring; add to creamed mixture. Mix salt, 1 teaspoon vanilla, and buttermilk together. Add the flour to the batter, alternating with the buttermilk mixture, mixing just until incorporated. Mix soda and vinegar and gently fold into cake batter. Don't beat or stir the batter after this point.
+4.Pour batter into prepared pans. Bake in preheated oven until a tester inserted into the cake comes out clean, about 30 minutes. Cool cakes completely on wire rack.
+5.To Make Icing: Cook 5 tablespoons flour and milk over low heat till thick, stirring constantly. Let cool completely! While mixture is cooling, beat 1 cup sugar, butter, and 1 teaspoon vanilla until light and fluffy. Add cooled flour mixture and beat until frosting is a good spreading consistency. Frost cake layers when completely cool."/>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+

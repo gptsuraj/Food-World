@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IceCreamCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ICE-CREAM CAKE"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/icecream"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:text="Ingredient"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:id="@+id/ingredient_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:text="1.5 quart container vanilla ice cream, 1.5 quart container chocolate ice cream, 3/4 cup hot fudge sauce, 12 OREO thins crushed, 1 1/2 cups heavy whipping cream, 1/4 cup sugar, 1 teaspoon vanilla, rainbow sprinkles or other decorations as desired."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="1.Remove ice cream from the freezer and defrost about 15 minutes.
+2.While ice cream is softening, line two 8-inch cake pans well with plastic wrap, leaving several inches of overhang.
+3.Spoon soft ice cream into each prepared pan, pressing down to remove air bubbles as you go. Cover with plastic wrap and press down evenly to smooth the top. Freeze for 8-12 hours or until hardened.
+4.One hour before assembling cake, place serving platter into freezer. (Make sure your platter can freeze!)
+5.Place heavy cream, sugar and vanilla into a large bowl and whip until stiff peaks form. Refrigerate.
+6.To assemble cake: remove ice cream layers and serving platter from freezer. Unwrap the tops of the ice cream layers and using the excess plastic wrap, remove layers from pans. Place chocolate layer on the bottom. Smooth an even layer of hot fudge over the chocolate layer, leaving a 1/2 inch border. Sprinkle crushed OREO thins over hot fudge and press down gently. Add vanilla layer overtop. Spread whipped cream overtop of the entire cake, add sprinkles as desired and freeze until ready to serve."/>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

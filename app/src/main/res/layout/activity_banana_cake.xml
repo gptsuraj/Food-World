@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BananaCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BANANA CAKE"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/bananacake"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/ingredient_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Ingredient"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:id="@+id/igrnt_tv"
+            android:text="2 1/2 cups all-purpose flour, 1 tablespoon baking soda, 1 pinch salt, 1/2 cup unsalted butter, 1 cup white sugar, 3/4 cup light brown sugar, 2 eggs, 4 ripe bananas, mashed, 2/3 cup buttermilk, 1/2 cup chopped walnuts."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:textColor="#ffffff"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/process_step_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/process_tv"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="1.Preheat oven to 350 degrees F (175 degrees C). Grease and flour 2 - 8 inch round pans. In a small bowl, whisk together flour, baking soda and salt; set aside.
+2.In a large bowl, cream butter, white sugar and brown sugar until light and fluffy. Beat in eggs, one at a time. Mix in the bananas. Add flour mixture alternately with the buttermilk to the creamed mixture. Stir in chopped walnuts. Pour batter into the prepared pans.
+3.Bake in the preheated oven for 30 minutes. Remove from oven, and place on a damp tea towel to cool."/>
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

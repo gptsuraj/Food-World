@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GermanChocoCakeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_shadow_end_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GERMAN CHOCO CAKE"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_background"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/chocolate_cake_tv"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/chocolate_cake_iv"
+            android:src="@drawable/germanchoco"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/chocolate_cake_tv"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chocolate_cake_iv"
+            android:text="Ingredient"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ingredient_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_below="@+id/ingredient_tv"
+            android:layout_margin="10dp"
+            android:id="@+id/igrnt_tv"
+            android:text="1/2 cup water, 4 (1 ounce) squares German sweet chocolate1 cup butter and softened, 2 cups white sugar, 4 egg yolks, 1 teaspoon vanilla extract, 1 cup buttermilk, 2 and 1/2 cups cake flour, 1 teaspoon baking soda, 1/2 teaspoon salt, 4 egg whites, 1 cup white sugar, 1 cup evaporated milk, 1/2 cup butter, 3 egg yolks and mixed well, 1 and 1/3 cups flaked coconut, 1 cup chopped pecans, 1 teaspoon vanilla extract, 1/2 teaspoon shortening, 1 (1 ounce) square semisweet chocolate."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_tv"
+            android:text="Process"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circular_background"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@+id/igrnt_tv"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_step_tv"
+            android:layout_below="@+id/process_tv"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:text="1.Preheat oven to 350 degrees F (175 degrees C). Grease and flour 3 - 9 inch round pans. Sift together the flour, baking soda and salt. Set aside. In a small saucepan, heat water and 4 ounces chocolate until melted. Remove from heat and allow to cool.
+2.In a large bowl, cream 1 cup butter and 2 cups sugar until light and fluffy. Beat in 4 egg yolks one at a time. Blend in the melted chocolate mixture and vanilla. Beat in the flour mixture alternately with the buttermilk, mixing just until incorporated.
+3.In a large glass or metal mixing bowl, beat egg whites until stiff peaks form. Fold 1/3 of the whites into the batter, then quickly fold in remaining whites until no streaks remain.
+4.Pour into 3 - 9 inch pans Bake in the preheated oven for 30 minutes, or until a toothpick inserted into the center of the cake comes out clean. Allow to cool for 10 minutes in the pan, then turn out onto wire rack.
+5.To make the Filling: In a saucepan combine 1 cup sugar, evaporated milk, 1/2 cup butter, and 3 egg yolks. Cook over low heat, stirring constantly until thickened. Remove from heat. Stir in coconut, pecans and vanilla. Cool until thick enough to spread.
+6.Spread filling between layers and on top of cake. In a small saucepan, melt shortening and 1 ounce of chocolate. Stir until smooth and drizzle down the sides of the cake."/>
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>
